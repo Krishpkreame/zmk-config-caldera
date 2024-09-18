@@ -38,11 +38,11 @@
 
         layer_3 {
             bindings = <
-&trans      &trans                &trans                &trans             &trans        &trans             &trans           &trans           &trans     &trans      &trans          &trans
-&trans      &trans                &trans                &trans             &trans        &trans             &trans           &trans           &trans     &trans      &trans          &trans
-&trans      &trans                &trans                &trans             &trans        &trans             &trans           &trans           &trans     &trans      &trans          &trans
-&trans      &trans                &trans                &trans             &trans        &trans             &trans           &trans           &trans     &trans      &trans          &trans
-&trans      &trans                &trans                &trans             &trans        &trans             &trans           &trans           &trans     &trans      &trans          &trans
+&trans        &trans  &trans  &trans     &trans     &trans    &trans  &trans                  &trans                   &trans  &trans  &trans
+&kp CAPSLOCK  &trans  &trans  &trans     &trans     &trans    &trans  &trans                  &trans                   &trans  &trans  &trans
+&trans        &trans  &trans  &kp LG(C)  &kp LG(V)  &trans    &trans  &kp LS(LA(LEFT_ARROW))  &kp LS(LA(RIGHT_ARROW))  &trans  &trans  &trans
+&trans        &trans  &trans  &trans     &trans     &trans    &trans  &trans                  &trans                   &trans  &trans  &trans
+&trans        &trans  &trans  &trans     &trans     &trans    &trans  &trans                  &trans                   &trans  &trans  &trans
             >;
         };
     };
