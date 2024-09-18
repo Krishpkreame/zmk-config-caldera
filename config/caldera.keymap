@@ -18,11 +18,11 @@
 
         layer_1 {
             bindings = <
-&kp F1  &kp F2         &kp F3  &kp F4            &kp F5          &kp F6       &kp F7             &kp F8                &kp F9                 &kp F10         &kp F11          &kp F12
-&none   &kp BACKSPACE  &trans  &kp HASH          &kp MINUS       &trans       &trans             &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans          &kp BACKSLASH    &trans
-&none   &trans         &trans  &kp SINGLE_QUOTE  &kp UNDERSCORE  &kp EQUAL    &kp DOUBLE_QUOTES  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_ARROW  &kp RIGHT_ARROW  &trans
-&trans  &trans         &trans  &kp PLUS          &kp QUESTION    &trans       &trans             &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans          &trans           &trans
-&tog 2  &trans         &trans  &trans            &trans          &trans       &trans             &trans                &trans                 &trans          &trans           &trans
+&kp F1  &kp F2         &kp F3  &kp F4            &kp F5          &kp F6       &kp F7             &kp F8                &kp F9                 &kp F10  &kp F11        &kp F12
+&none   &kp BACKSPACE  &trans  &kp HASH          &kp MINUS       &trans       &trans             &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans   &kp BACKSLASH  &trans
+&none   &trans         &trans  &kp SINGLE_QUOTE  &kp UNDERSCORE  &kp EQUAL    &kp DOUBLE_QUOTES  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans   &trans         &trans
+&trans  &trans         &trans  &kp PLUS          &kp QUESTION    &trans       &trans             &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans   &trans         &trans
+&tog 2  &trans         &trans  &trans            &trans          &trans       &trans             &trans                &trans                 &trans   &trans         &trans
             >;
         };
 
@@ -38,11 +38,11 @@
 
         layer_3 {
             bindings = <
-&trans        &trans  &trans  &trans     &trans     &trans    &trans  &trans                  &trans                   &trans  &trans  &trans
-&kp CAPSLOCK  &trans  &trans  &trans     &trans     &trans    &trans  &trans                  &trans                   &trans  &trans  &trans
-&trans        &trans  &trans  &kp LG(C)  &kp LG(V)  &trans    &trans  &kp LS(LA(LEFT_ARROW))  &kp LS(LA(RIGHT_ARROW))  &trans  &trans  &trans
-&trans        &trans  &trans  &trans     &trans     &trans    &trans  &trans                  &trans                   &trans  &trans  &trans
-&trans        &trans  &trans  &trans     &trans     &trans    &trans  &trans                  &trans                   &trans  &trans  &trans
+&trans        &trans  &trans  &trans     &trans     &trans    &trans  &trans                  &trans                   &trans              &trans         &trans
+&kp CAPSLOCK  &trans  &trans  &trans     &trans     &trans    &trans  &kp UP_ARROW            &kp DOWN                 &trans              &trans         &trans
+&trans        &trans  &trans  &kp LG(C)  &kp LG(V)  &trans    &trans  &kp LS(LA(LEFT_ARROW))  &kp LS(LA(RIGHT_ARROW))  &kp LA(LEFT_ARROW)  &kp LA(RIGHT)  &trans
+&trans        &trans  &trans  &trans     &trans     &trans    &trans  &kp LEFT                &kp RIGHT                &trans              &trans         &trans
+&trans        &trans  &trans  &trans     &trans     &trans    &trans  &trans                  &trans                   &trans              &trans         &trans
             >;
         };
     };
