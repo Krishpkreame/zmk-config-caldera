@@ -40,7 +40,7 @@
             bindings = <
 &trans        &trans     &trans         &trans     &trans     &trans    &trans  &trans                  &trans                   &trans              &trans         &trans
 &kp CAPSLOCK  &kp LG(Z)  &kp LG(LS(Z))  &trans     &trans     &trans    &trans  &kp UP_ARROW            &kp DOWN                 &trans              &trans         &trans
-&trans        &trans     &trans         &kp LG(C)  &kp LG(V)  &trans    &trans  &kp LS(LA(LEFT_ARROW))  &kp LS(LA(RIGHT_ARROW))  &kp LA(LEFT_ARROW)  &kp LA(RIGHT)  &trans
+&trans        &kp LG(A)  &trans         &kp LG(C)  &kp LG(V)  &trans    &trans  &kp LS(LA(LEFT_ARROW))  &kp LS(LA(RIGHT_ARROW))  &kp LA(LEFT_ARROW)  &kp LA(RIGHT)  &trans
 &trans        &trans     &trans         &trans     &trans     &trans    &trans  &kp LEFT                &kp RIGHT                &trans              &trans         &trans
 &trans        &trans     &trans         &trans     &trans     &trans    &trans  &trans                  &trans                   &trans              &trans         &trans
             >;
